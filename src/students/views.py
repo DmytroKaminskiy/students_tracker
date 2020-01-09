@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 
 # Create your views here.
@@ -36,4 +36,17 @@ def students(request):
                   context={'students_list': response})
 
 
+def students_add(request):
+    from students.forms import StudentsAddForm
 
+    if request.method == 'POST':
+        form = StudentsAddForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect('/students/')
+    else:
+        form = StudentsAddForm()
+
+    return render(request,
+                  'students_add.html',
+                  context={'form': form})
