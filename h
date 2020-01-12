@@ -365,3 +365,12 @@
   365  pip install flake8
   366  flake8 src/
   367  history > h
+  368  git add --all
+  369  git commit -m "update"
+  370  git push origin master 
+  371  sudo lsof -t -i:8000
+  372  sudo kill -9 32082
+  373  . env/bin/activate
+  374  python3
+  375  python src/manage.py shell
+  376  history > h

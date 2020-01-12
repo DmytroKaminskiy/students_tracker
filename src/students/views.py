@@ -1,4 +1,5 @@
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponse, \
+    HttpResponseRedirect, HttpResponseNotFound
 from django.shortcuts import render
 
 # Create your views here.
@@ -43,10 +44,50 @@ def students_add(request):
         form = StudentsAddForm(request.POST)
         if form.is_valid():
             form.save()
-            return HttpResponseRedirect('/students/')
+            from django.urls import reverse
+            return HttpResponseRedirect(reverse('students'))
     else:
         form = StudentsAddForm()
 
     return render(request,
                   'students_add.html',
+                  context={'form': form})
+
+
+def students_edit(request, pk):
+    from students.forms import StudentsAddForm
+
+    try:
+        student = Student.objects.get(id=pk)
+    except Student.DoesNotExist:
+        return HttpResponseNotFound(f'Student with id {pk} not found')
+
+    if request.method == 'POST':
+        form = StudentsAddForm(request.POST, instance=student)
+        if form.is_valid():
+            form.save()
+            from django.urls import reverse
+            return HttpResponseRedirect(reverse('students'))
+    else:
+        form = StudentsAddForm(instance=student)
+
+    return render(request,
+                  'students_edit.html',
+                  context={'form': form, 'pk': pk})
+
+
+def contact(request):
+    from students.forms import ContactForm
+
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            form.save()
+            from django.urls import reverse
+            return HttpResponseRedirect(reverse('students'))
+    else:
+        form = ContactForm()
+
+    return render(request,
+                  'contact.html',
                   context={'form': form})
