@@ -12,29 +12,14 @@ def generate_student(request):
 
 
 def students(request):
-    queryset = Student.objects.all()
-    response = ''
-
-    print("request.GET.get('first_name')")
+    queryset = Student.objects.all().select_related('group')
     fn = request.GET.get('first_name')
     if fn:
-        # __contains LIKE %{}%
-        # queryset = queryset.filter(first_name__contains=fn)
-
-        # __endswith  LIKE %{}
-        # queryset = queryset.filter(first_name__endswith=fn)
-
-        # __startswith  LIKE {}%
         queryset = queryset.filter(first_name__istartswith=fn)
 
-    for student in queryset:
-        response += student.get_info() + '<br>'
-        # response = response + student.get_info() + '<br>'
-    print('queryset.query')
-    print(queryset.query)
     return render(request,
                   'students_list.html',
-                  context={'students_list': response})
+                  context={'students': queryset})
 
 
 def students_add(request):
@@ -51,7 +36,7 @@ def students_add(request):
 
     return render(request,
                   'students_add.html',
-                  context={'form': form})
+                  context={'form': form, 'title': 'add student'})
 
 
 def students_edit(request, pk):

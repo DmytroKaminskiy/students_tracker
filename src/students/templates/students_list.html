@@ -1,17 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
+{% block content %}
 <form action="/students/" method="get">
     <input name="first_name">
     <input name="submit" type="submit">
 </form>
 
-{{ students_list|safe }}
+ <table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+{% for student in students %}
+    <a href="{% url 'students-edit' pk=student.id %}"> student EDIT </a>
+    {{ student.id }}
+    {{ student.group.name }}
+{{ student.email }}
+{{ student.last_name }}<br>
+{% endfor %}
 
-</body>
-</html>
+{# students_list|safe #}
+{% endblock content %}

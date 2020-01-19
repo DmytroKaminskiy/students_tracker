@@ -1,5 +1,7 @@
+import random
+
 from django.core.management.base import BaseCommand, CommandError
-from students.models import Student
+from students.models import Student, Group
 
 class Command(BaseCommand):
     help = 'Generate random students'
@@ -12,6 +14,15 @@ class Command(BaseCommand):
         )
 
     def handle(self, *args, **options):
+        Group.objects.all().delete()
+        Student.objects.all().delete()
+
+        groups = [Group.objects.create(name=f'name_{i}')
+                  for i in range(10)]
+
         number = int(options.get('number') or 100)
+        # for student in Student.objects.all():
         for _ in range(number):
-            Student.generate_student()
+            student = Student.generate_student()
+            student.group = random.choice(groups)
+            student.save()
