@@ -368,9 +368,70 @@
   368  git add --all
   369  git commit -m "update"
   370  git push origin master 
-  371  sudo lsof -t -i:8000
-  372  sudo kill -9 32082
-  373  . env/bin/activate
-  374  python3
-  375  python src/manage.py shell
-  376  history > h
+  371  cd hillel
+  372  ls -la
+  373  cd ../projects/students_tracker/
+  374  . env/bin/activate
+  375  python ./src/manage.py runserver
+  376  flake8 src/
+  377  flake8 
+  378  flake8 --max-;ine-length=10
+  379  flake8 --max-line-length=10
+  380  python ./src/manage.py runserver
+  381  sudo lsof -t -i:8000
+  382  sudo kill -9 32082
+  383  . env/bin/activate
+  384  python3
+  385  python src/manage.py shell
+  386  history > h
+  387  ls -la
+  388  git status
+  389  git add --all
+  390  git commit -m 'update'
+  391  git push origin master 
+  392  cd projects/students_tracker/
+  393  . env/bin/activate
+  394  python ./src/manage.py runserver
+  395  git status
+  396  git diff
+  397  git add --all
+  398  git commit -m "update"
+  399  git push origin master 
+  400  cd projects/students_tracker/
+  401  . env/bin/activate
+  402  python ./src/manage.py runserver
+  403  pip install requests
+  404  ipython
+  405  python ./src/manage.py runserver
+  406  ipython
+  407  python ./src/manage.py runserver
+  408  pip install django-debug-toolbar
+  409  pip freeze > requirements.txt 
+  410  python ./src/manage.py runserver
+  411  cd projects/students_tracker/
+  412  . env/bin/activate
+  413  python src/manage.py makemigrations
+  414  python src/manage.py migrate
+  415  python src/manage.py makemigrations
+  416  python src/manage.py migrate
+  417  python src/manage.py generate_students
+  418  python src/manage.py shell
+  419  python ./src/manage.py runserver
+  420  sudo apt-get update
+  421  sudo apt-get install python3-pip python3-dev libpq-dev postgresql postgresql-contrib nginx
+  422  sudo -u postgres qsql
+  423  sudo -u postgres psql
+  424  sudo service postgresql status
+  425  sudo service postgresql restart
+  426  sudo service postgresql status
+  427  sudo -u postgres psql
+  428  pip install psycopg2
+  429  python ./src/manage.py runserver
+  430  python ./src/manage.py migrate
+  431  python ./src/manage.py generate_students
+  432  python ./src/manage.py runserver
+  433  git add --all
+  434  git commit -m "a"
+  435  git push origin master 
+  436  hostory > h
+  437  history > h
