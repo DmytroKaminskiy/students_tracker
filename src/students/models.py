@@ -15,7 +15,7 @@ class Student(models.Model):
     birth_date = models.DateField(null=True, blank=True, default=None)
     email = models.EmailField()
     # add avatar TODO
-    telephone = models.CharField(max_length=16)  # clean phone TODO
+    telephone = models.CharField(max_length=30)  # clean phone TODO
     address = models.CharField(max_length=255, null=True, blank=True)
     group = models.ForeignKey('students.Group',
                               null=True, blank=True,
@@ -37,6 +37,12 @@ class Student(models.Model):
         student.save()
         return student
 
+    def __str__(self):
+        return f'{self.id} {self.full_name}'
+
+    @property
+    def full_name(self):
+        return f'{self.first_name} {self.last_name}'
 
 
 class Group(models.Model):
