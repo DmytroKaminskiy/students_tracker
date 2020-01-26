@@ -4,22 +4,30 @@ from faker import Faker
 from django.db import models
 
 
-'''
-CREATE TABLE students_student (
-    first_name varchar(20)
-);
-'''
 class Student(models.Model):
+    GRADE_CHOICES = (
+        (1, 'FreshMan'),
+        (2, 'Senior'),
+    )
+
+    # TODO
+    grade = models.PositiveSmallIntegerField(choices=GRADE_CHOICES, default=1) # freshman, senior
     first_name = models.CharField(max_length=20)
     last_name = models.CharField(max_length=20)
     birth_date = models.DateField(null=True, blank=True, default=None)
-    email = models.EmailField()
+    email = models.EmailField(unique=True)
     # add avatar TODO
     telephone = models.CharField(max_length=30)  # clean phone TODO
     address = models.CharField(max_length=255, null=True, blank=True)
     group = models.ForeignKey('students.Group',
                               null=True, blank=True,
                               on_delete=models.CASCADE)
+
+    def save(self, *args, **kwargs):
+        # pre_save
+        # self.email = self.email.lower()
+        super().save(*args, **kwargs)
+        # post_save
 
     def get_info(self):
         return f'{self.first_name} {self.last_name} {self.birth_date}'
@@ -47,3 +55,6 @@ class Student(models.Model):
 
 class Group(models.Model):
     name = models.CharField(max_length=128)
+
+
+from students.signals import *   # TODO move to apps ready!
