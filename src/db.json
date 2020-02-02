@@ -1,0 +1,1824 @@
+[
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "students",
+      "model": "student"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "students",
+      "model": "group"
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 1,
+    "fields": {
+      "grade": 1,
+      "first_name": "Amber",
+      "last_name": "Durham",
+      "birth_date": "2020-02-02",
+      "email": "scott43@simmons-stevenson.com",
+      "telephone": "001-507-731-3856x73582",
+      "address": null,
+      "group": 10
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 2,
+    "fields": {
+      "grade": 1,
+      "first_name": "Kayla",
+      "last_name": "Miller",
+      "birth_date": "2020-02-02",
+      "email": "melissa13@trujillo.com",
+      "telephone": "131.861.3845x75081",
+      "address": null,
+      "group": 5
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 3,
+    "fields": {
+      "grade": 1,
+      "first_name": "Sarah",
+      "last_name": "Green",
+      "birth_date": "2020-02-02",
+      "email": "cynthia75@olson-holmes.com",
+      "telephone": "001-317-698-0354",
+      "address": null,
+      "group": 7
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 4,
+    "fields": {
+      "grade": 1,
+      "first_name": "Benjamin",
+      "last_name": "Johnson",
+      "birth_date": "2020-02-02",
+      "email": "andrew63@frank.com",
+      "telephone": "(269)516-6785",
+      "address": null,
+      "group": 5
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 5,
+    "fields": {
+      "grade": 1,
+      "first_name": "Valerie",
+      "last_name": "Rose",
+      "birth_date": "2020-02-02",
+      "email": "christinaalvarado@wilkinson.com",
+      "telephone": "001-048-867-0803x7276",
+      "address": null,
+      "group": 7
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 6,
+    "fields": {
+      "grade": 1,
+      "first_name": "Amanda",
+      "last_name": "Taylor",
+      "birth_date": "2020-02-02",
+      "email": "sharonray@willis-carter.com",
+      "telephone": "149.726.0092",
+      "address": null,
+      "group": 10
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 7,
+    "fields": {
+      "grade": 1,
+      "first_name": "Joseph",
+      "last_name": "Frey",
+      "birth_date": "2020-02-02",
+      "email": "robertjohnson@gmail.com",
+      "telephone": "001-651-671-4360x368",
+      "address": null,
+      "group": 3
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 8,
+    "fields": {
+      "grade": 1,
+      "first_name": "Bonnie",
+      "last_name": "Black",
+      "birth_date": "2020-02-02",
+      "email": "jessicacummings@anderson-fletcher.com",
+      "telephone": "161.219.2454x5293",
+      "address": null,
+      "group": 4
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 9,
+    "fields": {
+      "grade": 1,
+      "first_name": "Marcus",
+      "last_name": "Garcia",
+      "birth_date": "2020-02-02",
+      "email": "thomas40@mills.com",
+      "telephone": "+1-380-777-8145x9368",
+      "address": null,
+      "group": 7
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 10,
+    "fields": {
+      "grade": 1,
+      "first_name": "Jason",
+      "last_name": "Guzman",
+      "birth_date": "2020-02-02",
+      "email": "susanharrell@salinas.com",
+      "telephone": "8122238578",
+      "address": null,
+      "group": 3
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 11,
+    "fields": {
+      "grade": 1,
+      "first_name": "Rachel",
+      "last_name": "Smith",
+      "birth_date": "2020-02-02",
+      "email": "pmunoz@flores.biz",
+      "telephone": "001-897-588-8557x91495",
+      "address": null,
+      "group": 3
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 12,
+    "fields": {
+      "grade": 1,
+      "first_name": "Christopher",
+      "last_name": "Sosa",
+      "birth_date": "2020-02-02",
+      "email": "deborahanderson@smith.com",
+      "telephone": "155-531-2130",
+      "address": null,
+      "group": 3
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 13,
+    "fields": {
+      "grade": 1,
+      "first_name": "James",
+      "last_name": "Freeman",
+      "birth_date": "2020-02-02",
+      "email": "ecollins@hotmail.com",
+      "telephone": "(410)536-6452x631",
+      "address": null,
+      "group": 10
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 14,
+    "fields": {
+      "grade": 1,
+      "first_name": "Kimberly",
+      "last_name": "Marshall",
+      "birth_date": "2020-02-02",
+      "email": "bradysara@hotmail.com",
+      "telephone": "980.971.7965x9716",
+      "address": null,
+      "group": 7
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 15,
+    "fields": {
+      "grade": 1,
+      "first_name": "Ethan",
+      "last_name": "Smith",
+      "birth_date": "2020-02-02",
+      "email": "schneiderlarry@brown.net",
+      "telephone": "+1-511-997-6947x08043",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 16,
+    "fields": {
+      "grade": 1,
+      "first_name": "Crystal",
+      "last_name": "Walker",
+      "birth_date": "2020-02-02",
+      "email": "crivera@yahoo.com",
+      "telephone": "891-015-7226x18709",
+      "address": null,
+      "group": 6
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 17,
+    "fields": {
+      "grade": 1,
+      "first_name": "Andre",
+      "last_name": "Montoya",
+      "birth_date": "2020-02-02",
+      "email": "tylergibson@harrison-johnson.com",
+      "telephone": "142-103-6315x42765",
+      "address": null,
+      "group": 1
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 18,
+    "fields": {
+      "grade": 1,
+      "first_name": "Brittany",
+      "last_name": "Dominguez",
+      "birth_date": "2020-02-02",
+      "email": "michelle91@medina.com",
+      "telephone": "857.537.9698",
+      "address": null,
+      "group": 10
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 19,
+    "fields": {
+      "grade": 1,
+      "first_name": "Benjamin",
+      "last_name": "Campbell",
+      "birth_date": "2020-02-02",
+      "email": "summerkeith@howard.com",
+      "telephone": "(062)757-3599",
+      "address": null,
+      "group": 7
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 20,
+    "fields": {
+      "grade": 1,
+      "first_name": "Henry",
+      "last_name": "Johnson",
+      "birth_date": "2020-02-02",
+      "email": "webbjoseph@moore.com",
+      "telephone": "(897)502-2518x59818",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 21,
+    "fields": {
+      "grade": 1,
+      "first_name": "Jesse",
+      "last_name": "Flowers",
+      "birth_date": "2020-02-02",
+      "email": "thomas31@hotmail.com",
+      "telephone": "713-718-3851",
+      "address": null,
+      "group": 4
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 22,
+    "fields": {
+      "grade": 1,
+      "first_name": "Audrey",
+      "last_name": "Franklin",
+      "birth_date": "2020-02-02",
+      "email": "danielcarr@kramer.com",
+      "telephone": "(480)615-6231",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 23,
+    "fields": {
+      "grade": 1,
+      "first_name": "Seth",
+      "last_name": "Chen",
+      "birth_date": "2020-02-02",
+      "email": "bushalex@cook.com",
+      "telephone": "9579121707",
+      "address": null,
+      "group": 10
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 24,
+    "fields": {
+      "grade": 1,
+      "first_name": "Charles",
+      "last_name": "Jones",
+      "birth_date": "2020-02-02",
+      "email": "qknapp@peterson.com",
+      "telephone": "+1-136-720-6510x5384",
+      "address": null,
+      "group": 2
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 25,
+    "fields": {
+      "grade": 1,
+      "first_name": "Barbara",
+      "last_name": "Robinson",
+      "birth_date": "2020-02-02",
+      "email": "grantjoshua@yahoo.com",
+      "telephone": "401.375.1361",
+      "address": null,
+      "group": 6
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 26,
+    "fields": {
+      "grade": 1,
+      "first_name": "John",
+      "last_name": "Holloway",
+      "birth_date": "2020-02-02",
+      "email": "kevin51@hansen.biz",
+      "telephone": "001-359-623-0446x369",
+      "address": null,
+      "group": 10
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 27,
+    "fields": {
+      "grade": 1,
+      "first_name": "John",
+      "last_name": "Sanders",
+      "birth_date": "2020-02-02",
+      "email": "barry64@gmail.com",
+      "telephone": "308.974.6096x758",
+      "address": null,
+      "group": 2
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 28,
+    "fields": {
+      "grade": 1,
+      "first_name": "John",
+      "last_name": "Jones",
+      "birth_date": "2020-02-02",
+      "email": "johnhanson@doyle-harmon.com",
+      "telephone": "290-899-1694x79877",
+      "address": null,
+      "group": 7
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 29,
+    "fields": {
+      "grade": 1,
+      "first_name": "Jacqueline",
+      "last_name": "Owens",
+      "birth_date": "2020-02-02",
+      "email": "elizabethkidd@gonzales-esparza.com",
+      "telephone": "001-660-453-9415",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 30,
+    "fields": {
+      "grade": 1,
+      "first_name": "Reginald",
+      "last_name": "Nelson",
+      "birth_date": "2020-02-02",
+      "email": "matthew83@wolfe-james.com",
+      "telephone": "2888247281",
+      "address": null,
+      "group": 3
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 31,
+    "fields": {
+      "grade": 1,
+      "first_name": "Sarah",
+      "last_name": "Strickland",
+      "birth_date": "2020-02-02",
+      "email": "rramos@green.biz",
+      "telephone": "922.180.3095x186",
+      "address": null,
+      "group": 5
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 32,
+    "fields": {
+      "grade": 1,
+      "first_name": "Alexandra",
+      "last_name": "Adams",
+      "birth_date": "2020-02-02",
+      "email": "myerslisa@kennedy-wilson.com",
+      "telephone": "(828)486-4056",
+      "address": null,
+      "group": 4
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 33,
+    "fields": {
+      "grade": 1,
+      "first_name": "Derrick",
+      "last_name": "Barnes",
+      "birth_date": "2020-02-02",
+      "email": "nathanielboyer@yahoo.com",
+      "telephone": "798-867-5079x8686",
+      "address": null,
+      "group": 4
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 34,
+    "fields": {
+      "grade": 1,
+      "first_name": "Edward",
+      "last_name": "Miller",
+      "birth_date": "2020-02-02",
+      "email": "maria95@zimmerman.com",
+      "telephone": "9551473962",
+      "address": null,
+      "group": 9
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 35,
+    "fields": {
+      "grade": 1,
+      "first_name": "Felicia",
+      "last_name": "Williams",
+      "birth_date": "2020-02-02",
+      "email": "tammypowers@yahoo.com",
+      "telephone": "(404)756-6458x16258",
+      "address": null,
+      "group": 10
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 36,
+    "fields": {
+      "grade": 1,
+      "first_name": "Nicole",
+      "last_name": "Gomez",
+      "birth_date": "2020-02-02",
+      "email": "jacob18@mcclure-pena.com",
+      "telephone": "001-245-770-5077x72535",
+      "address": null,
+      "group": 3
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 37,
+    "fields": {
+      "grade": 1,
+      "first_name": "Lisa",
+      "last_name": "Hutchinson",
+      "birth_date": "2020-02-02",
+      "email": "teresa09@mccarthy.com",
+      "telephone": "(922)732-2871",
+      "address": null,
+      "group": 2
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 38,
+    "fields": {
+      "grade": 1,
+      "first_name": "Lindsey",
+      "last_name": "Miller",
+      "birth_date": "2020-02-02",
+      "email": "zmiller@peck.com",
+      "telephone": "+1-399-357-4267",
+      "address": null,
+      "group": 7
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 39,
+    "fields": {
+      "grade": 1,
+      "first_name": "Austin",
+      "last_name": "Wong",
+      "birth_date": "2020-02-02",
+      "email": "thompsonlaura@hotmail.com",
+      "telephone": "+1-480-437-8462x00428",
+      "address": null,
+      "group": 4
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 40,
+    "fields": {
+      "grade": 1,
+      "first_name": "Ariel",
+      "last_name": "Rivera",
+      "birth_date": "2020-02-02",
+      "email": "emily04@carr.com",
+      "telephone": "(462)490-3722",
+      "address": null,
+      "group": 5
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 41,
+    "fields": {
+      "grade": 1,
+      "first_name": "Emily",
+      "last_name": "Raymond",
+      "birth_date": "2020-02-02",
+      "email": "jenniferchase@gmail.com",
+      "telephone": "(857)186-5782",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 42,
+    "fields": {
+      "grade": 1,
+      "first_name": "Angela",
+      "last_name": "Vance",
+      "birth_date": "2020-02-02",
+      "email": "veronica51@hotmail.com",
+      "telephone": "592.629.7058x4914",
+      "address": null,
+      "group": 9
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 43,
+    "fields": {
+      "grade": 1,
+      "first_name": "David",
+      "last_name": "Hobbs",
+      "birth_date": "2020-02-02",
+      "email": "stephaniesullivan@gmail.com",
+      "telephone": "319-482-9304x20378",
+      "address": null,
+      "group": 5
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 44,
+    "fields": {
+      "grade": 1,
+      "first_name": "Chad",
+      "last_name": "Dunn",
+      "birth_date": "2020-02-02",
+      "email": "amy25@snow-george.com",
+      "telephone": "(871)229-2507x2577",
+      "address": null,
+      "group": 9
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 45,
+    "fields": {
+      "grade": 1,
+      "first_name": "Nathan",
+      "last_name": "Tucker",
+      "birth_date": "2020-02-02",
+      "email": "lisamacias@hotmail.com",
+      "telephone": "(506)519-0675",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 46,
+    "fields": {
+      "grade": 1,
+      "first_name": "Michael",
+      "last_name": "Maddox",
+      "birth_date": "2020-02-02",
+      "email": "catherine98@gmail.com",
+      "telephone": "(533)229-5965x98784",
+      "address": null,
+      "group": 3
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 47,
+    "fields": {
+      "grade": 1,
+      "first_name": "Donna",
+      "last_name": "Hall",
+      "birth_date": "2020-02-02",
+      "email": "fpalmer@gmail.com",
+      "telephone": "001-654-193-8248x53210",
+      "address": null,
+      "group": 7
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 48,
+    "fields": {
+      "grade": 1,
+      "first_name": "Timothy",
+      "last_name": "Edwards",
+      "birth_date": "2020-02-02",
+      "email": "jennifer59@hotmail.com",
+      "telephone": "296-924-4124",
+      "address": null,
+      "group": 5
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 49,
+    "fields": {
+      "grade": 1,
+      "first_name": "Mary",
+      "last_name": "Bush",
+      "birth_date": "2020-02-02",
+      "email": "kathymolina@yahoo.com",
+      "telephone": "0723274150",
+      "address": null,
+      "group": 1
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 50,
+    "fields": {
+      "grade": 1,
+      "first_name": "Christian",
+      "last_name": "Frederick",
+      "birth_date": "2020-02-02",
+      "email": "jgreen@hotmail.com",
+      "telephone": "001-771-173-1221x977",
+      "address": null,
+      "group": 7
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 51,
+    "fields": {
+      "grade": 1,
+      "first_name": "Destiny",
+      "last_name": "Vasquez",
+      "birth_date": "2020-02-02",
+      "email": "gsalinas@perez.com",
+      "telephone": "838-701-9810",
+      "address": null,
+      "group": 4
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 52,
+    "fields": {
+      "grade": 1,
+      "first_name": "Joseph",
+      "last_name": "Sanders",
+      "birth_date": "2020-02-02",
+      "email": "qlee@maxwell-oneill.org",
+      "telephone": "001-307-083-8378x668",
+      "address": null,
+      "group": 7
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 53,
+    "fields": {
+      "grade": 1,
+      "first_name": "Drew",
+      "last_name": "Frederick",
+      "birth_date": "2020-02-02",
+      "email": "ygordon@yahoo.com",
+      "telephone": "001-149-881-6167x3516",
+      "address": null,
+      "group": 2
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 54,
+    "fields": {
+      "grade": 1,
+      "first_name": "Randall",
+      "last_name": "Howard",
+      "birth_date": "2020-02-02",
+      "email": "crosslaurie@yahoo.com",
+      "telephone": "093.847.1821",
+      "address": null,
+      "group": 7
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 55,
+    "fields": {
+      "grade": 1,
+      "first_name": "Jennifer",
+      "last_name": "Davis",
+      "birth_date": "2020-02-02",
+      "email": "underwoodjasmine@yahoo.com",
+      "telephone": "3979688651",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 56,
+    "fields": {
+      "grade": 1,
+      "first_name": "Courtney",
+      "last_name": "Terry",
+      "birth_date": "2020-02-02",
+      "email": "crystal23@santana.com",
+      "telephone": "001-717-230-0349x157",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 57,
+    "fields": {
+      "grade": 1,
+      "first_name": "Matthew",
+      "last_name": "Mitchell",
+      "birth_date": "2020-02-02",
+      "email": "shafferteresa@spears-sherman.com",
+      "telephone": "9066163523",
+      "address": null,
+      "group": 2
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 58,
+    "fields": {
+      "grade": 1,
+      "first_name": "Dana",
+      "last_name": "Dunlap",
+      "birth_date": "2020-02-02",
+      "email": "zalvarez@yahoo.com",
+      "telephone": "+1-834-313-4571x7154",
+      "address": null,
+      "group": 9
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 59,
+    "fields": {
+      "grade": 1,
+      "first_name": "Lisa",
+      "last_name": "Henderson",
+      "birth_date": "2020-02-02",
+      "email": "mirandagonzalez@foster.com",
+      "telephone": "812.166.6809x2452",
+      "address": null,
+      "group": 4
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 60,
+    "fields": {
+      "grade": 1,
+      "first_name": "Amber",
+      "last_name": "Wilkinson",
+      "birth_date": "2020-02-02",
+      "email": "kelsey29@cohen.info",
+      "telephone": "4634936530",
+      "address": null,
+      "group": 4
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 61,
+    "fields": {
+      "grade": 1,
+      "first_name": "Mary",
+      "last_name": "Harrison",
+      "birth_date": "2020-02-02",
+      "email": "amandaadams@sparks.com",
+      "telephone": "001-939-023-6117x93546",
+      "address": null,
+      "group": 2
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 62,
+    "fields": {
+      "grade": 1,
+      "first_name": "Garrett",
+      "last_name": "Cruz",
+      "birth_date": "2020-02-02",
+      "email": "williamsyvonne@rojas.com",
+      "telephone": "001-247-667-3481x8901",
+      "address": null,
+      "group": 10
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 63,
+    "fields": {
+      "grade": 1,
+      "first_name": "Melissa",
+      "last_name": "Santos",
+      "birth_date": "2020-02-02",
+      "email": "kthompson@hotmail.com",
+      "telephone": "239-808-4251",
+      "address": null,
+      "group": 1
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 64,
+    "fields": {
+      "grade": 1,
+      "first_name": "Natasha",
+      "last_name": "Allen",
+      "birth_date": "2020-02-02",
+      "email": "nicholas48@mccoy-mcmahon.com",
+      "telephone": "227.108.6905",
+      "address": null,
+      "group": 9
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 65,
+    "fields": {
+      "grade": 1,
+      "first_name": "Brandon",
+      "last_name": "Watkins",
+      "birth_date": "2020-02-02",
+      "email": "michellenorman@cantu.biz",
+      "telephone": "563.319.9819x05635",
+      "address": null,
+      "group": 7
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 66,
+    "fields": {
+      "grade": 1,
+      "first_name": "Jessica",
+      "last_name": "Wolfe",
+      "birth_date": "2020-02-02",
+      "email": "miguel00@walton-mullen.info",
+      "telephone": "959.440.5769x65540",
+      "address": null,
+      "group": 3
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 67,
+    "fields": {
+      "grade": 1,
+      "first_name": "Eric",
+      "last_name": "Wells",
+      "birth_date": "2020-02-02",
+      "email": "jasmine05@hotmail.com",
+      "telephone": "001-288-114-5366x146",
+      "address": null,
+      "group": 7
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 68,
+    "fields": {
+      "grade": 1,
+      "first_name": "Amanda",
+      "last_name": "Scott",
+      "birth_date": "2020-02-02",
+      "email": "nrobinson@yahoo.com",
+      "telephone": "120-684-0999x72467",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 69,
+    "fields": {
+      "grade": 1,
+      "first_name": "Joseph",
+      "last_name": "Gonzalez",
+      "birth_date": "2020-02-02",
+      "email": "angela27@romero.info",
+      "telephone": "281-164-9569x88643",
+      "address": null,
+      "group": 4
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 70,
+    "fields": {
+      "grade": 1,
+      "first_name": "Shaun",
+      "last_name": "Rodriguez",
+      "birth_date": "2020-02-02",
+      "email": "christinawilkins@anderson-flores.info",
+      "telephone": "856.829.2121",
+      "address": null,
+      "group": 3
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 71,
+    "fields": {
+      "grade": 1,
+      "first_name": "Tiffany",
+      "last_name": "Miller",
+      "birth_date": "2020-02-02",
+      "email": "mariahill@yahoo.com",
+      "telephone": "385-515-0950",
+      "address": null,
+      "group": 4
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 72,
+    "fields": {
+      "grade": 1,
+      "first_name": "Charles",
+      "last_name": "Wright",
+      "birth_date": "2020-02-02",
+      "email": "smithaustin@hotmail.com",
+      "telephone": "6722500119",
+      "address": null,
+      "group": 2
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 73,
+    "fields": {
+      "grade": 1,
+      "first_name": "Jessica",
+      "last_name": "Baker",
+      "birth_date": "2020-02-02",
+      "email": "qhale@gmail.com",
+      "telephone": "001-673-732-1886x6857",
+      "address": null,
+      "group": 6
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 74,
+    "fields": {
+      "grade": 1,
+      "first_name": "Lisa",
+      "last_name": "Ruiz",
+      "birth_date": "2020-02-02",
+      "email": "debbie97@wade-shaw.com",
+      "telephone": "4331542918",
+      "address": null,
+      "group": 3
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 75,
+    "fields": {
+      "grade": 1,
+      "first_name": "Christopher",
+      "last_name": "Miller",
+      "birth_date": "2020-02-02",
+      "email": "christopher47@gmail.com",
+      "telephone": "8570933401",
+      "address": null,
+      "group": 6
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 76,
+    "fields": {
+      "grade": 1,
+      "first_name": "James",
+      "last_name": "Arnold",
+      "birth_date": "2020-02-02",
+      "email": "fergusondebra@gmail.com",
+      "telephone": "(263)430-1616x652",
+      "address": null,
+      "group": 9
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 77,
+    "fields": {
+      "grade": 1,
+      "first_name": "Ricky",
+      "last_name": "Murphy",
+      "birth_date": "2020-02-02",
+      "email": "nelsoncolleen@king.com",
+      "telephone": "(164)869-4707x541",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 78,
+    "fields": {
+      "grade": 1,
+      "first_name": "Michael",
+      "last_name": "Zhang",
+      "birth_date": "2020-02-02",
+      "email": "stewartjesus@cantu.com",
+      "telephone": "476.145.7652x16385",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 79,
+    "fields": {
+      "grade": 1,
+      "first_name": "Danny",
+      "last_name": "Mason",
+      "birth_date": "2020-02-02",
+      "email": "williamcarter@hotmail.com",
+      "telephone": "5148017190",
+      "address": null,
+      "group": 6
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 80,
+    "fields": {
+      "grade": 1,
+      "first_name": "Maria",
+      "last_name": "Fleming",
+      "birth_date": "2020-02-02",
+      "email": "annroberts@yahoo.com",
+      "telephone": "001-400-248-4093",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 81,
+    "fields": {
+      "grade": 1,
+      "first_name": "Karina",
+      "last_name": "Lester",
+      "birth_date": "2020-02-02",
+      "email": "rwang@craig.com",
+      "telephone": "940.645.7480x5746",
+      "address": null,
+      "group": 2
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 82,
+    "fields": {
+      "grade": 1,
+      "first_name": "Billy",
+      "last_name": "Daugherty",
+      "birth_date": "2020-02-02",
+      "email": "nashrichard@gmail.com",
+      "telephone": "+1-930-829-5982x4843",
+      "address": null,
+      "group": 1
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 83,
+    "fields": {
+      "grade": 1,
+      "first_name": "Bonnie",
+      "last_name": "Ward",
+      "birth_date": "2020-02-02",
+      "email": "dorseyrebecca@hotmail.com",
+      "telephone": "+1-398-138-7475",
+      "address": null,
+      "group": 3
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 84,
+    "fields": {
+      "grade": 1,
+      "first_name": "Kristen",
+      "last_name": "Gill",
+      "birth_date": "2020-02-02",
+      "email": "grahamlisa@yang.org",
+      "telephone": "+1-108-488-1953x8063",
+      "address": null,
+      "group": 1
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 85,
+    "fields": {
+      "grade": 1,
+      "first_name": "Howard",
+      "last_name": "Smith",
+      "birth_date": "2020-02-02",
+      "email": "fsingh@walker-mclaughlin.info",
+      "telephone": "868-475-2036x910",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 86,
+    "fields": {
+      "grade": 1,
+      "first_name": "David",
+      "last_name": "Carr",
+      "birth_date": "2020-02-02",
+      "email": "bryan13@yahoo.com",
+      "telephone": "019-692-9770x536",
+      "address": null,
+      "group": 5
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 87,
+    "fields": {
+      "grade": 1,
+      "first_name": "Dana",
+      "last_name": "Perez",
+      "birth_date": "2020-02-02",
+      "email": "rbarnes@reed-griffith.com",
+      "telephone": "001-072-778-3640x310",
+      "address": null,
+      "group": 3
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 88,
+    "fields": {
+      "grade": 1,
+      "first_name": "Sarah",
+      "last_name": "Mills",
+      "birth_date": "2020-02-02",
+      "email": "danielpatterson@hawkins.org",
+      "telephone": "703.368.6514x862",
+      "address": null,
+      "group": 4
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 89,
+    "fields": {
+      "grade": 1,
+      "first_name": "Brian",
+      "last_name": "Cooper",
+      "birth_date": "2020-02-02",
+      "email": "wmartinez@yahoo.com",
+      "telephone": "257.943.2193",
+      "address": null,
+      "group": 5
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 90,
+    "fields": {
+      "grade": 1,
+      "first_name": "Stephanie",
+      "last_name": "Walsh",
+      "birth_date": "2020-02-02",
+      "email": "donaldterry@hotmail.com",
+      "telephone": "288.428.3955x25584",
+      "address": null,
+      "group": 2
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 91,
+    "fields": {
+      "grade": 1,
+      "first_name": "Danielle",
+      "last_name": "Keller",
+      "birth_date": "2020-02-02",
+      "email": "barbarabaker@gmail.com",
+      "telephone": "001-533-637-9836",
+      "address": null,
+      "group": 9
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 92,
+    "fields": {
+      "grade": 1,
+      "first_name": "Rachel",
+      "last_name": "Smith",
+      "birth_date": "2020-02-02",
+      "email": "nancymiller@gmail.com",
+      "telephone": "305-910-2723x64249",
+      "address": null,
+      "group": 10
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 93,
+    "fields": {
+      "grade": 1,
+      "first_name": "Annette",
+      "last_name": "Moon",
+      "birth_date": "2020-02-02",
+      "email": "higginsjohn@gmail.com",
+      "telephone": "096.420.7990x9818",
+      "address": null,
+      "group": 10
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 94,
+    "fields": {
+      "grade": 1,
+      "first_name": "Gary",
+      "last_name": "Pratt",
+      "birth_date": "2020-02-02",
+      "email": "nmason@yahoo.com",
+      "telephone": "002-725-3183x9278",
+      "address": null,
+      "group": 5
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 95,
+    "fields": {
+      "grade": 1,
+      "first_name": "Charles",
+      "last_name": "Reynolds",
+      "birth_date": "2020-02-02",
+      "email": "rodriguezjessica@yahoo.com",
+      "telephone": "(285)017-3904x4852",
+      "address": null,
+      "group": 4
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 96,
+    "fields": {
+      "grade": 1,
+      "first_name": "Ethan",
+      "last_name": "Jones",
+      "birth_date": "2020-02-02",
+      "email": "maldonadosamantha@hotmail.com",
+      "telephone": "904-837-4167x86765",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 97,
+    "fields": {
+      "grade": 1,
+      "first_name": "Ian",
+      "last_name": "Garcia",
+      "birth_date": "2020-02-02",
+      "email": "staffordchristian@briggs.com",
+      "telephone": "(327)838-1717x9364",
+      "address": null,
+      "group": 7
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 98,
+    "fields": {
+      "grade": 1,
+      "first_name": "Joe",
+      "last_name": "Ford",
+      "birth_date": "2020-02-02",
+      "email": "carol56@harrison.info",
+      "telephone": "6539528182",
+      "address": null,
+      "group": 2
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 99,
+    "fields": {
+      "grade": 1,
+      "first_name": "Michael",
+      "last_name": "Schultz",
+      "birth_date": "2020-02-02",
+      "email": "tgarza@wright.com",
+      "telephone": "9752413916",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 100,
+    "fields": {
+      "grade": 1,
+      "first_name": "Chad",
+      "last_name": "Miller",
+      "birth_date": "2020-02-02",
+      "email": "leeryan@hotmail.com",
+      "telephone": "001-926-587-6607x0360",
+      "address": null,
+      "group": 8
+    }
+  },
+  {
+    "model": "students.group",
+    "pk": 1,
+    "fields": {
+      "name": "name_0"
+    }
+  },
+  {
+    "model": "students.group",
+    "pk": 2,
+    "fields": {
+      "name": "name_1"
+    }
+  },
+  {
+    "model": "students.group",
+    "pk": 3,
+    "fields": {
+      "name": "name_2"
+    }
+  },
+  {
+    "model": "students.group",
+    "pk": 4,
+    "fields": {
+      "name": "name_3"
+    }
+  },
+  {
+    "model": "students.group",
+    "pk": 5,
+    "fields": {
+      "name": "name_4"
+    }
+  },
+  {
+    "model": "students.group",
+    "pk": 6,
+    "fields": {
+      "name": "name_5"
+    }
+  },
+  {
+    "model": "students.group",
+    "pk": 7,
+    "fields": {
+      "name": "name_6"
+    }
+  },
+  {
+    "model": "students.group",
+    "pk": 8,
+    "fields": {
+      "name": "name_7"
+    }
+  },
+  {
+    "model": "students.group",
+    "pk": 9,
+    "fields": {
+      "name": "name_8"
+    }
+  },
+  {
+    "model": "students.group",
+    "pk": 10,
+    "fields": {
+      "name": "name_9"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add student",
+      "content_type": 7,
+      "codename": "add_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change student",
+      "content_type": 7,
+      "codename": "change_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete student",
+      "content_type": 7,
+      "codename": "delete_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view student",
+      "content_type": 7,
+      "codename": "view_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 8,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 8,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 8,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 8,
+      "codename": "view_group"
+    }
+  }
+]

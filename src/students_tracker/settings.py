@@ -144,3 +144,10 @@ try:
     from students_tracker.settings_local import *  # DATABASES
 except ImportError:
     print('settings_local module not found!\n'*5)
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
+    }
+}
