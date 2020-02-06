@@ -45,3 +45,22 @@ class ContactForm(Form):
         email_from = data['email']
         recipient_list = [settings.EMAIL_HOST_USER, ]
         send_mail(subject, message, email_from, recipient_list, fail_silently=False)
+
+
+from django.contrib.auth.models import User
+
+class UserRegistrationForm(ModelForm):
+    class Meta:
+        model = User
+        fields = ('username', 'email', 'password')
+
+    def save(self, commit=True):
+        instance = super().save(commit=False)
+        instance.set_password(self.cleaned_data['password'])
+        instance.is_active = False
+        super().save(commit)
+
+
+class UserLoginForm(Form):
+    username = CharField()
+    password = CharField()

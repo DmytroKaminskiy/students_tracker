@@ -21,3 +21,9 @@ python manage.py test --settings=students_tracker.settings_test students.tests.T
         time_delta = CharField or Other Время работы вью функции
         user_id = IntegerField
         created = DateTimeField (auto_now=True)
+
+
+#############################
+add celerybeat (every day at midnight)
+
+

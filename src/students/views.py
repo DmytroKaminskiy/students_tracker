@@ -1,3 +1,4 @@
+from django.contrib.auth import login, authenticate, logout
 from django.http import HttpResponse, \
     HttpResponseRedirect, HttpResponseNotFound
 from django.shortcuts import render
@@ -16,6 +17,8 @@ def students(request):
     fn = request.GET.get('first_name')
     if fn:
         queryset = queryset.filter(first_name__istartswith=fn)
+
+    print('VIEW students')
 
     return render(request,
                   'students_list.html',
@@ -75,4 +78,46 @@ def contact(request):
 
     return render(request,
                   'contact.html',
+                  context={'form': form})
+
+
+def register(request):
+    from students.forms import UserRegistrationForm
+    user_form = UserRegistrationForm
+
+    if request.method == 'POST':
+        form = user_form(request.POST)
+        if form.is_valid():
+            form.save()
+            from django.urls import reverse
+            return HttpResponseRedirect(reverse('students'))
+    else:
+        form = user_form()
+
+    return render(request,
+                  'registration.html',
+                  context={'form': form})
+
+def custom_login(request):
+    from students.forms import UserLoginForm
+    user_form = UserLoginForm
+
+    if request.GET.get('logout'):
+        logout(request)
+
+    if request.method == 'POST':
+        form = user_form(request.POST)
+        if form.is_valid():
+            user = authenticate(request,
+                                username=form.cleaned_data['username'],
+                                password=form.cleaned_data['password'],
+                                )
+            login(request, user)
+            from django.urls import reverse
+            return HttpResponseRedirect(reverse('students'))
+    else:
+        form = user_form()
+
+    return render(request,
+                  'login.html',
                   context={'form': form})
