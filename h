@@ -464,3 +464,63 @@
   464  . env/bin/activate
   465  python src/manage.py shell
   466  history > h
+
+
+
+   57  . env/bin/activate
+   58  . ../env/bin/activate
+   59  python manage.py collectstatic
+   60  supervisor
+   61  supervisord
+   62  sudo apt install supervisor
+   63  cd /etc/supervisor/
+   64  supervisorctl
+   65  ls -la
+   66  cd conf.d/
+   67  ls -la
+   68  sudo nano gunicorn.conf
+   69  pwd
+   70  cat gunicorn.conf
+   71  sudo systemctl gunicorn start
+   72  ls -la
+   73  sudo supervisorctl reread
+   74  sudo supervisorctl update
+   75  sudo systemctl gunicorn start
+   76  sudo systemctl gunicorn status
+   77  sudo supervisorctl start gunicorn
+   78  sudo supervisorctl status gunciron
+   79  sudo supervisorctl status gunicorn
+   80  history
+
+
+      57  cd /etc/nginx/
+   58  sudo nano sites-available/default
+   59  sudo nginx -t
+   60  sudo service nginx restart
+   61  sudo nano sites-available/default
+   62  sudo nginx -t
+   63  sudo service nginx restart
+   64  sudo service nginx status
+   65  ls -la
+   66  echo $?
+   67  sesgsregrg
+   68  echo $?
+   69  history
+
+   57  cd projects/co
+   58  cd projects/students_tracker/
+   59  . env/bin/activate
+   60  python src/manage.py runserver
+   61
+   62  pip freeze > requirements.txt
+   63  cd src/
+   64  ls -la
+   65  gunicorn students_tracker.wsgi
+   66  gunicorn
+   67*
+   68  ls
+   69  which ls
+   70  /home/python/projects/students_tracker/env/bin/gunicorn students_tracker.wsgi
+   71  pwd
+   72  history
+

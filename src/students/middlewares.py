@@ -17,12 +17,12 @@ class LoggerMiddleware:
         diff = time.time() - start_time
 
         admin_url = '/admin/'
-        if request.path.startswith(admin_url):
-            Logger.objects.create(
-                path=request.path,
-                method=mch.METHOD_CHOICES_REVERSED[request.method],
-                time_delta=diff,
-                # user_id=...
-            )
+        # if request.path.startswith(admin_url):
+        #     Logger.objects.create(
+        #         path=request.path,
+        #         method=mch.METHOD_CHOICES_REVERSED[request.method],
+        #         time_delta=diff,
+        #         # user_id=...
+        #     )
 
         return response
